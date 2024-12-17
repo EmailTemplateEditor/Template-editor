@@ -91,7 +91,7 @@ router.post("/sendEmail", async (req, res) => {
             </a>
           </td>
           <!-- Right Column: Image -->
-          <td style="width: 30%; padding: 15px; text-align: right; vertical-align: top;">
+          <td class="right-image" style = "width:30%; padding:15px;text-align:right;">
             <img src="${segment.content.image}" alt="Right Image" style="
               max-width: 100%;
               height: auto;
